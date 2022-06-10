@@ -14,7 +14,7 @@
 - internet access for getting docker images from dockerhub
 - java 11 installed and $JAVA_HOME set
 - gradle
-- docker
+- docker (running docker command without sudo should be possible:  sudo groupadd docker and  sudo usermod -aG docker $USER)
 - docker-compose
 
 ### 3-2- run the code
