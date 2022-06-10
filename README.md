@@ -29,6 +29,8 @@ chmod +x ./create_networks.sh
 chmod +x ./start_all.sh
 ./start_all.sh #may need to run with sudo
 ```
+give the services a little time to start running inside the containers <br/><br/>
+
 the bash script will do the following:
 - create required docker networks
 - run a mariaDb instance for each service inside docker
