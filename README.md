@@ -27,7 +27,7 @@ cd assignment123
 chmod +x ./create_networks.sh
 ./create_networks.sh #needs to be run just once
 chmod +x ./start_all.sh
-./start_all.sh
+./start_all.sh #may need to run with sudo
 ```
 the bash script will do the following:
 - create required docker networks
