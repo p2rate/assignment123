@@ -12,7 +12,7 @@
 ### 3-1- requirements
 - linux or mac operating system
 - internet access for getting docker images from dockerhub
-- java 11
+- java 11 installed and $JAVA_HOME set
 - gradle
 - docker
 - docker-compose
