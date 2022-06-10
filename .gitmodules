@@ -1,0 +1,9 @@
+[submodule "user-service"]
+	path = user-service
+	url = ../assignment123-user-service.git
+[submodule "account-service"]
+	path = account-service
+	url = ../assignment123-account-service.git
+[submodule "transaction-service"]
+	path = transaction-service
+	url = ../assignment123-transaction-service.git
