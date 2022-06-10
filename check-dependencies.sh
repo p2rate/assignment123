@@ -28,11 +28,5 @@ function util::src::check_dependencies() {
   [[ -n "$(command -v docker-compose)" ]] || ( echo "==> [ERROR] 'docker-compose' was not found on system." && exit 1 )
   echo "==> [SUCCESS] 'docker' configured."
 
-  # ----------------------------------------------------------------------------
-  # TAR CHECK
-  # ----------------------------------------------------------------------------
-  echo "==> [INFO] Checking for 'tar' on system."
-  [[ -n "$(command -v tar)" ]] || { echo "==> [ERROR] 'tar' not found on system."; exit 1; }
-  echo "==> [SUCCESS] 'tar' configured."
 }
 readonly -f util::src::check_dependencies
