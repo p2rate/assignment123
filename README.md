@@ -24,6 +24,8 @@ for running the code you exceute the following commands.
 ```shell script
 git clone --recursive https://github.com/p2rate/assignment123.git  
 cd assignment123
+chmod +x ./create_networks.sh
+./create_networks.sh #needs to be run just once
 chmod +x ./start_all.sh
 ./start_all.sh
 ```

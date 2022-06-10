@@ -26,21 +26,6 @@ util::src::check_dependencies
 
 
 
-echo "==> [INFO] creating microservices docker network" && \
-docker network create microservices && \
-
-echo "==> [INFO] creating account-service docker network" && \
-docker network create account-service && \
-
-echo "==> [INFO] creating user-service docker network" && \
-docker network create user-service && \
-
-echo "==> [INFO] creating transaction-service docker network" && \
-docker network create transaction-service && \
-
-
-
-
 
 echo "==> [INFO] running docker-compose to run user-service-db" && \
 docker-compose -f $USER_SERVICES_COMPOSE_FILE up -d && \
