@@ -19,7 +19,9 @@
 
 ### 3-2- run the code
 for running the code you exceute the following commands.
->do not forget to run git clone with **--recursive** argument
+>do not forget to run git clone with **--recursive** argument <br/>
+
+
 > after databases are started on docker the services can be also run on the host machine (for example from an IDE)
  
 ```shell script
