@@ -20,7 +20,8 @@
 ### 3-2- run the code
 for running the code you exceute the following commands.
 >do not forget to run git clone with **--recursive** argument
-
+> after databases are started on docker the services can be also run on the host machine (for example from an IDE)
+ 
 ```shell script
 git clone --recursive https://github.com/p2rate/assignment123.git  
 cd assignment123
