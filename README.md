@@ -262,4 +262,4 @@ the following needs to be added to code later:
 - revoking system for issued tokens
 - circuit breakers for handling other services not being available
 - withdrawal and transfer functionality for transaction-service
-- exception handlers for custom exceptions so that they do not 
+- exception handlers for custom exceptions so that they do not cause internal error response
